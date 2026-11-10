@@ -48,7 +48,7 @@ import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import { useInView } from "react-intersection-observer";
 
 import ProfilePhoto from "./assets/profile-photo.jpg";
-import ResumeFile from "./assets/praveen-kumar-patil-resume.docx";
+import ResumeFile from "./assets/praveen-kumar-patil-resume.docx?url";
 
 const EMAIL = "patilpraveen1432@gmail.com";
 const PHONE_DISPLAY = "+91 7842753302";
