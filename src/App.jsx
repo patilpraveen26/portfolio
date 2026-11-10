@@ -48,7 +48,7 @@ import CheckCircleOutlineIcon from "@mui/icons-material/CheckCircleOutline";
 import { useInView } from "react-intersection-observer";
 
 import ProfilePhoto from "./assets/profile-photo.jpg";
-import ResumePDF from "./assets/praveen-kumar-patil-resume.pdf";
+import ResumeFile from "./assets/praveen-kumar-patil-resume.docx";
 
 const EMAIL = "patilpraveen1432@gmail.com";
 const PHONE_DISPLAY = "+91 7842753302";
@@ -453,8 +453,8 @@ function Hero({ onNav }) {
               variant="outlined"
               size="large"
               component="a"
-              href={ResumePDF}
-              download="Praveen-Kumar-Patil-Resume.pdf"
+              href={ResumeFile}
+              download="Praveen-Kumar-Patil-Resume.docx"
               startIcon={<DownloadIcon />}
             >
               Download resume
@@ -527,8 +527,8 @@ function About() {
           </Typography>
           <Button
             component="a"
-            href={ResumePDF}
-            download="Praveen-Kumar-Patil-Resume.pdf"
+            href={ResumeFile}
+            download="Praveen-Kumar-Patil-Resume.docx"
             variant="contained"
             size="large"
             startIcon={<DownloadIcon />}
